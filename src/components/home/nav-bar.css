@@ -1,0 +1,28 @@
+.nav-bar-wrapper{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: gray;
+    align-items: center;
+}
+
+.logo-container{
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav-links-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-session-links-container{
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+}
