@@ -1,16 +1,16 @@
-import logo from './logo.svg';
-import CylcleIndex from './components/CycleIndex';
-import NavBar from './components/home/NavBar';
-import Home from './components/home/Home';
-// import './App.css';
+import CylcleIndex from './components/FSPDataFlow/CycleIndex';
+import NavBar from './components/FSPStyle/NavBar';
+import Home from './components/FSPStyle/Home';
+import './App.css';
+
 
 
 function App() {
   return (
     <div className="App">
-      {/* <CylcleIndex /> */}
-      <NavBar />
-      <Home />
+      <CylcleIndex />  
+      {/* <NavBar /> */}
+      {/* <Home /> */}
     </div>
   );
 }

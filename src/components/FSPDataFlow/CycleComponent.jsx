@@ -9,11 +9,9 @@ const CycleComponent = (props) => {
     const handleClick = (e) => {
         if (props.position + 1 === props.allDebuggers[props.tile]){
             setScore(!score)
-            console.log("RIGHT")
         } else {
             setLit(!lit)
             props.setLoser(true)
-            console.log("WRONG")
             setTimeout(()=>{
                 window.location.reload()
             }, 1000)

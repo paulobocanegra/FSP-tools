@@ -1,5 +1,5 @@
 .cycle-index-container {
-    height: 100%;
+    height: 100vh;
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -35,10 +35,11 @@
 
 .loser-container{
     position: absolute;
+    top: 0;
     background-color: rgb(139, 23, 23);
     color: white;
-    height: 600px;
-    width: 800px;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
