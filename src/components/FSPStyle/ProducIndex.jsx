@@ -2,7 +2,7 @@ import ProductIndexItem from "./ProductIndexItem";
 
 const ProductIndex = () => {
     return(
-        <div className="product-index-wrapper">
+        <section className="product-index-wrapper">
             <ProductIndexItem/>
             <ProductIndexItem/>
             <ProductIndexItem/>
@@ -10,7 +10,7 @@ const ProductIndex = () => {
             <ProductIndexItem/>
             <ProductIndexItem/>
             <ProductIndexItem/>
-        </div>
+        </section>
     )
 }
 
