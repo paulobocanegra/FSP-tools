@@ -45,3 +45,13 @@
     align-items: center;
     font-size: 60px;
 }
+
+.ui-demo-button{
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    height: 60px;
+    width: 160px;
+    background-color: rgb(82, 82, 217);
+    color: white;
+}

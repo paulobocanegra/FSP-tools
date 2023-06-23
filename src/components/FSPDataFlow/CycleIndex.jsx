@@ -1,8 +1,7 @@
 import "./cycle.css"
 import CycleComponent from "./CycleComponent";
 import { useState } from "react";
-
-const loserMessages = ["Hell no!", "For real?", "You get a strike", "...no", ""]
+import { Link } from "react-router-dom";
 
 const CylcleIndex = () =>{
     const allDebuggers = {
@@ -16,7 +15,6 @@ const CylcleIndex = () =>{
         "thunk action creator": 2,
     }
     
-    const debuggerQueue = [0,1,2,3]
     
     const debugArr = Object.keys(allDebuggers)
     const [loser, setLoser] = useState(false)
@@ -24,6 +22,7 @@ const CylcleIndex = () =>{
 
     return (
         <div className="app">
+            <Link to="/fsp-style" ><button className="ui-demo-button">UI DEMO</button></Link>
             <div className="cycle-index-container">
                 {debugArr.map(tile => {
                     return (
